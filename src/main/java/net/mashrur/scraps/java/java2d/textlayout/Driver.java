@@ -14,7 +14,7 @@ public class Driver{
         SwingUtilities.invokeLater(new Runnable(){
                 public void run(){
                     ApplicationFrame applicationFrame = new ApplicationFrame();
-                    applicationFrame.addComponent(new PaintComponent("saad is my name"));
+                    applicationFrame.addComponent(new PaintComponent("ERRORÀÇESaad is my name"));
                     applicationFrame.setVisible(true); 
                 }
             });
